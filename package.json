@@ -1,7 +1,6 @@
 {
   "name": "modern-javascript-application",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -16,5 +15,14 @@
   },
   "dependencies": {
     "axios": "^0.21.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdrbek06/modern-javascript-application.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kdrbek06/modern-javascript-application/issues"
+  },
+  "homepage": "https://github.com/kdrbek06/modern-javascript-application#readme",
+  "description": ""
 }

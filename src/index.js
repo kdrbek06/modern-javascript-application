@@ -7,7 +7,7 @@ document.getElementById("searchButton").addEventListener("click", () => {
     
     let inputCity = document.getElementById("inputBox").value;
     axios
-        .get(`http://api.openweathermap.org/data/2.5/forecast?q=${inputCity}&appid=${apiKey}&units=metric`)
+        .get(`https://api.openweathermap.org/data/2.5/forecast?q=${inputCity}&appid=${apiKey}&units=metric`)
         .then((response) => updateData(response.data))
         .catch((err) => console.log(err));
 });

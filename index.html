@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <div class="container filter">
+        <div class="header">
+        <img id="logo" src="/img/weather.png" alt="">
+        <h1>WEATHER APP</h1>
+        </div>
+
+        <div class="box box0 filter" id="currentBox">
+            <img id="img0" alt="">
+            <h2 id="cityName"></h2>
+            <p id="desc0"></p>
+            <div id="tempBox"></div>
+                    <div id="temp0"></div>
+                    <div id="feel0"></div>
+                    <div id="min0"></div>
+                    <div id="max0"></div>
+                    <div id="avgBox0"></div>
+                    <div id="humidity0"></div>
+
+        </div>
+
+        <div class="searhBox">
+            <input id="inputBox"  type="text" placeholder="Search City" >
+            <button id="searchButton">Search</button>
+
+        </div>
+
+        <div class="resultBox">
+            <div class="box box1 filter">
+                <img id="img1" src="" alt="">
+                <p id="desc1"></p>
+                <div id="avgBox1"></div>
+            </div>
+            <div class="box box2 filter">
+                <img id="img2" src="" alt="">
+                <p id="desc2"></p>
+                <div id="avgBox2"></div>
+            </div>
+            <div class="box box3 filter">
+                <img id="img3" src="" alt="">
+                <p id="desc3"></p>
+                <div id="avgBox3"></div>
+            </div>
+            <div class="box box4 filter">
+                <img id="img4" src="" alt="">
+                <p id="desc4"></p>
+                <div id="avgBox4"></div>
+            </div>
+            
+        </div>
+
+        <div id="footer">Icons made by 
+            <a href="https://www.freepik.com" title="Freepik"> Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com </a><br>
+            <a href="https://www.freepik.com/photos/background"> Background photo created by jannoon028 - www.freepik.com </a>
+        </div>
+    </div>
+</body>
+<!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+<script type="module" src="./src/index.js"></script>
+</html>
